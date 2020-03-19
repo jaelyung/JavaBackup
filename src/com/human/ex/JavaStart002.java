@@ -2,10 +2,7 @@ package com.human.ex;
 
 import java.util.Arrays;
 
-class Cat{
-	public String name;
-	public int age;
-}
+
 public class JavaStart002 {
 	//문제 1. 삼각형 3개를 화면에 출력
 	public static void triangle1() {
