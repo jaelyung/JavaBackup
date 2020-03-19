@@ -4,23 +4,20 @@ import java.util.*;
 public class JavaStart16 {
 	
 	public static void main(String[] args) {
-		//369게임  3으로 끝나는 수에서 박수, 10의 배수에서 만세
-		for(int i=1;i<100;i++) {
-			if(i%10==0) {
-				System.out.print(" 만세 ");
-				continue;
-			}
-			if(i>10&&i/10%10%3==0) {
-				System.out.print(" 짝 ");
-			}
-			
-			if(i%10%3==0) {
-				System.out.print(" 짝 ");
-			}else if(i>10&&i/10%10%3==0){
-				
-			}else {
-				System.out.print(" "+i+" ");
-			}
-		}	
+		
+		int i=0;
+		{
+			int i1=0;
+		}
+		if(true) {
+			int i2=10;
+		}
+		for(int j=0;j<11;j++) {
+			int i3=10;
+			i++;
+			//i1++;
+			//i2++;
+			//중괄호 안에있는 변수들은 사라져서 실행이 안됨.
+		}
 	}
 }
