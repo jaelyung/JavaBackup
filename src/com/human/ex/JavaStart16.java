@@ -3,10 +3,10 @@ package com.human.ex;
 import java.util.*;
 public class JavaStart16 {
 	//전역변수, static변수, 클리스변수,
-	public static int total=0;
+	public static int total=0;//다른클래스에서도 사용할 수 있다.
 	public static void main(String[] args) {
 		System.out.println(total);
-		System.out.println(JavaStart16.total);
+		System.out.println(JavaStart16.total);//다른 클래스에서 사용할때
 		int i=0;
 		{
 			total=10;
